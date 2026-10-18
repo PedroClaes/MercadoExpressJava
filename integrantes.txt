@@ -1,0 +1,33 @@
+CP5 - Java Advanced - Prof. Dr. Marcel Stefan Wagner
+Turma: <TURMA>   Curso: Análise e Desenvolvimento de Sistemas (TDS)
+
+Integrantes:
+- <NOME COMPLETO> - RM <00000>
+- <NOME COMPLETO> - RM <00000>
+- <NOME COMPLETO> - RM <00000>
+
+IDE utilizada: IntelliJ IDEA
+
+PARTE 1 - Spring Security MVC
+GitHub (README completo): https://github.com/<usuario>/<repositorio>
+Deploy (produção): https://<app>.onrender.com
+Plataforma de deploy: Render (Web Service Docker + PostgreSQL gerenciado do Render)
+
+PARTE 2 - Microsserviços com RabbitMQ
+GitHub: https://github.com/<usuario>/<repositorio>
+Vídeo (YouTube, não listado): https://youtu.be/<id>
+
+Configuração do Banco de Dados (PostgreSQL):
+  URL: jdbc:postgresql://localhost:5432/mercado_express
+  Usuário: postgres   Senha: postgres
+  (sobe com: docker compose up -d   — ver docker-compose.yml)
+  Tabelas: tds_sec_mvc_tb_mercado (produtos), tds_users_mercado (usuários),
+           tb_pedido, tb_item_pedido, tb_email (controle de e-mails)
+
+RabbitMQ: localhost:5672 | Dashboard: http://localhost:15672 (guest/guest)
+Exemplo de requisição de compra (Postman): postman/compra-exemplo.json
+Coleção Postman: postman/CP5-Mercado-Express.postman_collection.json
+
+Usuários de teste:
+  ADMIN   -> admin@mercado.com / admin123
+  CLIENTE -> cliente@mercado.com / cliente123
