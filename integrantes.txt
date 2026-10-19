@@ -1,5 +1,5 @@
 CP5 - Java Advanced - Prof. Dr. Marcel Stefan Wagner
-Turma: <TURMA>   Curso: Análise e Desenvolvimento de Sistemas (TDS)
+Turma: 2TDSPV  Curso: Análise e Desenvolvimento de Sistemas (TDS)
 
 Integrantes:
 - Pedro Gabriel Claes Ferreira - RM 566058
