@@ -302,11 +302,11 @@ Sem Postman: `bash postman/teste-api.sh` (Git Bash).
    RABBIT_LISTENERS=false
    ```
    > O Render entrega a URL no formato `postgres://...`. O Spring precisa do formato `jdbc:postgresql://host:porta/banco`.
-4. Deploy → `https://<app>.onrender.com`
+4. Deploy → `https://mercadoexpressjava.onrender.com`
 
 No deploy da Parte 1 não há broker. Por isso os listeners ficam desligados e, se alguém finalizar uma compra, o pedido fica `ERRO_ENVIO` sem derrubar a aplicação. Para ter a integração também em produção, crie uma instância gratuita no CloudAMQP/LavinMQ, preencha `RABBIT_HOST`, `RABBIT_USERNAME`, `RABBIT_PASSWORD` e `RABBIT_VHOST`, remova `RABBIT_LISTENERS=false` e rode o worker como *Background Worker*.
 
-🔗 **Produção:** https://&lt;app&gt;.onrender.com
+🔗 **Produção:** https://mercadoexpressjava.onrender.com
 
 ---
 
