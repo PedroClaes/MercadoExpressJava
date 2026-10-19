@@ -340,8 +340,3 @@ cp5/
 ```
 
 ---
-
-### Referências
-- Aulas 16, 17 e 20 de Java Advanced (Prof. Marcel Wagner)
-- Michelli Brito, ms-email: https://github.com/MichelliBrito/ms-email
-- Documentação Spring AMQP: https://docs.spring.io/spring-amqp/reference/
